@@ -1,0 +1,122 @@
+.art-dir{
+    border: lightgray 1px solid;
+    width: 40%;
+    margin-left: 30%;
+    padding: 15px;
+    padding-top: 15px;
+}
+
+#adding-form{
+    width: 40%;
+    margin-left: 30%;
+    padding: 15px;
+    padding-top: 15px;
+}
+.art-dir h2{
+    margin: 0;
+    margin-bottom: 15px;
+    margin-left: 10%;
+    font-family: 'Cabin', sans-serif;
+}
+
+.art-dir #art-dir-text{
+    border: lightgray 1px solid;
+    border-radius: 3px;
+    height: 25px;
+    width: 70%;
+    margin-left: 5%;
+}
+
+#adding-form input[type*="text"]{
+    margin-left: 10%;
+    width: 80%;
+    height: 30px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#adding-form input[type*="submit"]{
+    margin-left: 30%;
+    width: 40%;
+    border: 0px;
+    height: 40px;
+}
+
+.art-dir input[type*="button"]{
+    border: lightgray 1px solid;
+    border-radius: 5px;
+    height: 40px;
+    width: 10%;
+}
+
+.art-dir input[type*="button"]:hover{
+    background-color: lightblue;
+}
+
+.art-dir input:hover{
+    background-color: lightgray;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.content{
+    width: 30%;
+    margin-left: 35%;
+    border: lightgray 1px solid;
+    border-top: 0px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.content:hover{
+    background-color: lightgray;
+    transition: 0.3s;
+}
+
+.art-img{
+    width: 15%;
+    border-radius: 5%;
+    margin:5%;
+    float: left;
+}
+
+.art-content{
+    width: 50%;
+    float: left;
+    font-family: 'Lobster', sans-serif;
+}
+
+.art-content p{
+    color: gray;
+    margin: 0;
+    margin-top: 10px;
+}
+
+
+.art-content h3{
+    margin-top: 5%;
+    margin-bottom: 0px;
+    
+}
+
+.delete{
+    color: white;
+    background: red;
+    border: 0px;
+    height: 30px;
+    border-radius: 3px;
+    float: left;
+    width: 15%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.delete:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}

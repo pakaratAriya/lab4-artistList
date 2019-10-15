@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link href="https://fonts.googleapis.com/css?family=Cabin:400,700|Lobster&display=swap" rel="stylesheet">
+        <title>Lab4 - Internet Software</title>
+    </head>
+    <body>
+        <div class="art-dir">
+            <h2>Artist Directory</h2>
+            <input id="art-dir-text" type="text">
+            <input type="button" id="add-artist" value="Add">
+            <input type="button" id="search-artist" value="Search" onclick="search()">
+        </div>
+        <form id="adding-form" action="/addArtist" method="POST">
+            <input id="artist-name" type="text" placeholder="Artist Name" name="name" required>
+            <input id="artist-about" type="text" placeholder="About artist" name="about" required>
+            <input id="artist-url" type="text" placeholder="Image url" name="url" required>
+            <input type="submit" value="Add" id="add">
+        </form>
+        <script src="index.js"></script>
+    </body>
+</html>
